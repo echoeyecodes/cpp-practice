@@ -4,6 +4,8 @@
 
 using namespace std;
 
+//creates a copy of the character array passed at a new memory address, while retaining the former;
+
 char* copyString(char* str, int size) {
 	char* x = new char[size];
 	for (int i = 0; i < size; i++) {
